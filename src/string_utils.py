@@ -5,8 +5,7 @@ def capitalize_words(s):
     return ' '.join(word.capitalize() for word in s.split())
 
 def count_vowels(s):
-    #vowels = 'euioaEUIOA'
-    vowels = 'aui'
+    vowels = 'euioaEUIOA'
     return sum(1 for char in s if char in vowels)
 
 def is_palindrome(s):
